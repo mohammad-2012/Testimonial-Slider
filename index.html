@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonial Slider Pro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <h1 class="header-title">
+          <i class="fas fa-comment-dots"></i> Testimonials
+        </h1>
+        <span class="header-badge"
+          ><i class="fas fa-calendar-alt"></i> June 2026</span
+        >
+      </div>
+    </header>
+
+    <div class="comments-container">
+      <div class="comment-box">
+        <div class="comment-info-box"></div>
+
+        <div class="controls-wrapper">
+          <div class="comment-arrow-buttons">
+            <button class="comment-btn prev-btn">
+              <i class="fas fa-chevron-circle-left"></i>
+            </button>
+            <button class="comment-btn next-btn">
+              <i class="fas fa-chevron-circle-right"></i>
+            </button>
+          </div>
+
+          <div class="action-buttons">
+            <button class="random-btn">
+              <i class="fas fa-shuffle"></i> Random
+            </button>
+            <button class="autoplay-btn" id="autoplayBtn">
+              <i class="fas fa-play"></i> Auto
+            </button>
+          </div>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        <i class="fas fa-quote-left"></i> Real stories from real people
+        <i class="fas fa-quote-right"></i>
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
